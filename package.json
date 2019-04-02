@@ -1,5 +1,5 @@
 {
-  "name": "react-custom-fullscreen",
+  "name": "react-fullscreen-image-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,7 @@
     "@types/react-dom": "16.8.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-fullscreen-image": "0.0.2",
+    "react-fullscreen-image": "0.0.3",
     "react-scripts": "2.1.8",
     "typescript": "3.4.1"
   },
