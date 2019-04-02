@@ -11,7 +11,7 @@ import image7 from './assets/images/unsplash_image_7.jpeg'
 import image8 from './assets/images/unsplash_image_8.jpeg'
 import image9 from './assets/images/unsplash_image_9.jpeg'
 
-import { ImageGroup, Image } from 'react-fullscreen-images'
+import { ImageGroup, Image } from 'react-fullscreen-image'
 
 const images = [
   image1,
@@ -32,20 +32,7 @@ export default function App() {
         <ul className="images">
           {images.map(i => (
             <li key={i}>
-              <Image
-                src={i}
-                alt="mountains"
-                style={{
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  right: 0,
-                  bottom: 0,
-                  height: '100%',
-                  width: '100%',
-                  objectFit: 'cover',
-                }}
-              />
+              <Image src={i} alt="mountains" />
             </li>
           ))}
         </ul>

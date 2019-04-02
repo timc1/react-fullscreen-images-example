@@ -9,7 +9,7 @@
     "@types/react-dom": "16.8.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-fullscreen-images": "/Users/tim/desktop/oss/react-fullscreen-images/",
+    "react-fullscreen-image": "0.0.1",
     "react-scripts": "2.1.8",
     "typescript": "3.4.1"
   },
